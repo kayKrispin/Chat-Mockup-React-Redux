@@ -1,0 +1,418 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%; }
+
+* {
+  box-sizing: border-box; }
+
+.loginBox {
+  height: 620px;
+  max-width: 30.5rem;
+  background: #fff;
+  color: #1b4996;
+  display: flex;
+  border-radius: 10px;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; }
+  .loginBox h1 {
+    margin-top: 40px;
+    margin-bottom: 10px; }
+  .loginBox p {
+    margin: 0px;
+    text-align: center;
+    font-size: 20px; }
+
+.register {
+  height: auto;
+  text-align: center; }
+
+.headerTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem; }
+  .headerTop p {
+    padding: 0;
+    margin: 5px 0;
+    font-weight: 600; }
+  .headerTop h1 {
+    margin-left: 10px;
+    font-size: 2.7em;
+    margin-top: 10px;
+    font-weight: 800; }
+  .headerTop h1:first-letter {
+    border-radius: 10px; }
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  background: #1b4996;
+  border-radius: 50%; }
+  .avatar p {
+    text-align: center;
+    font-size: 40px;
+    color: #fff; }
+
+.boxBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.5em; }
+  .boxBottom p {
+    color: #000;
+    font-size: 18px;
+    margin-top: 10px; }
+  .boxBottom a {
+    margin-top: 5px;
+    color: #58ce2d;
+    text-decoration: underline;
+    font-size: 19px; }
+  .boxBottom a:hover {
+    color: #006266; }
+
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1; }
+
+.boxBody {
+  margin-top: 60px;
+  text-align: center; }
+  .boxBody button {
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 0.9rem;
+    text-transform: uppercase;
+    min-width: 9.5rem;
+    line-height: 36px;
+    margin-top: 0.3em;
+    font-size: 19px; }
+  .boxBody .btn-primary {
+    background: #1b4996; }
+  .boxBody .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+    left: auto; }
+  .boxBody .input-group-text {
+    width: 3rem;
+    padding-left: 15px;
+    border: 1px solid #6ab04c;
+    background: #6ab04c;
+    border-radius: 10px; }
+  .boxBody .input-field {
+    line-height: 2.5em;
+    width: 22em;
+    border: 1px solid #6ab04c;
+    border-radius: 5px;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 16.5px; }
+  .boxBody .input-field.error {
+    line-height: 2.5em;
+    width: 22em;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 16.5px; }
+  .boxBody .fas .fa-lock {
+    line-height: 100px; }
+  .boxBody .form-group {
+    margin-bottom: 1.5rem; }
+  .boxBody btn-primary:hover {
+    background: red; }
+
+.boxregisterBody {
+  box-shadow: 0 0 150px 39px #d8dee4;
+  height: 100%;
+  max-width: 30.5rem;
+  background: #fff;
+  color: #1b4996;
+  display: flex;
+  border-radius: 10px;
+  align-self: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; }
+  .boxregisterBody h1 {
+    margin-top: 40px;
+    margin-bottom: 10px; }
+  .boxregisterBody p {
+    margin: 0px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 25px; }
+
+.span-error {
+  color: orange;
+  position: absolute;
+  top: 49px;
+  left: 30px; }
+
+.input-group-text.error {
+  border: 1px solid orange;
+  background: orange; }
+
+.fa, .fas {
+  color: white; }
+
+.sign {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: orange;
+  position: absolute;
+  left: -26px;
+  top: 1px; }
+
+.registerBox {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1em;
+  font-size: 2em;
+  padding: 1em; }
+  .registerBox button {
+    align-self: center;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-radius: 0.9rem;
+    text-transform: uppercase;
+    min-width: 9.5rem;
+    line-height: 36px;
+    margin-top: 0.3em;
+    font-size: 19px; }
+  .registerBox .btn-primary {
+    background: #1b4996; }
+  .registerBox .input-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+    position: relative;
+    left: auto; }
+  .registerBox .input-group-text {
+    width: 3rem;
+    padding-left: 15px;
+    border: 1px solid #6ab04c;
+    background: #6ab04c;
+    border-radius: 10px; }
+  .registerBox .input-field {
+    line-height: 2.5em;
+    width: 22em;
+    border: 1px solid #6ab04c;
+    border-radius: 5px;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 16.5px; }
+  .registerBox .input-field.error {
+    line-height: 2.5em;
+    width: 22em;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding-left: 10px;
+    line-height: 45px;
+    font-size: 16.5px; }
+  .registerBox .fas .fa-lock {
+    line-height: 100px; }
+  .registerBox .form-group {
+    margin-bottom: 1.5rem; }
+  .registerBox btn-primary:hover {
+    background: red; }
+  .registerBox .span-error {
+    color: orange;
+    position: absolute;
+    top: 49px;
+    left: 30px;
+    font-size: 15px; }
+  .registerBox .input-group-text.error {
+    border: 1px solid orange;
+    background: orange; }
+
+.registerBoxBottom {
+  text-align: center;
+  margin-top: -56px;
+  margin-bottom: 20px;
+  padding-top: 2em; }
+  .registerBoxBottom a {
+    font-size: 17px;
+    color: #58ce2d;
+    text-decoration: underline; }
+
+.regForm {
+  padding: 10px; }
+
+.input-group-text {
+  background: #6ab04c; }
+
+img {
+  width: 76px; }
+
+.inp-test {
+  background: #6ab04c; }
+
+.forget {
+  height: 730px; }
+  .forget .forget-main {
+    height: inherit; }
+
+.forget-header {
+  margin-top: 2rem; }
+
+.login-second {
+  margin-top: 3rem;
+  text-align: center; }
+
+.confirm-phone {
+  margin-bottom: -1.5em; }
+
+p {
+  color: #000; }
+
+.btn-proceed {
+  width: -webkit-fill-available; }
+
+.user-container {
+  display: flex;
+  height: 700px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; }
+
+.main-content {
+  height: 100%;
+  flex-grow: 0.1;
+  background: #00858a; }
+
+.side-section {
+  height: 100%;
+  flex-grow: 2;
+  display: flex;
+  justify-content: center;
+  background: #ecf0f1; }
+
+.user-header {
+  height: 55px;
+  width: 100%;
+  background: #f5f6fa; }
+
+.chat-fotter {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  background: #00858a; }
+
+.chat-input {
+  width: 100%; }
+
+.chat-btn {
+  width: 100px;
+  color: #fff;
+  background: #00858a; }
+
+.search {
+  color: #fff;
+  margin: 10px; }
+  .search input {
+    color: #fff;
+    background: #00858a;
+    border: none;
+    margin: 10px;
+    cursor: pointer; }
+  .search input::placeholder {
+    color: #fff; }
+
+.wrap {
+  display: flex; }
+  .wrap span {
+    position: absolute;
+    left: 7px;
+    margin: -2px 0 0 -2px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid #2c3e50;
+    background: #95a5a6; }
+  .wrap img {
+    border: 2px solid #2ecc71;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer; }
+  .wrap p {
+    margin: 30px 10px;
+    color: #fff; }
+
+ul {
+  list-style: none;
+  padding: 10px; }
+  ul li {
+    cursor: pointer; }
+    ul li img {
+      width: 40px;
+      border-radius: 50%;
+      float: left;
+      padding: 0;
+      margin-bottom: 10px;
+      margin-right: 10px; }
+    ul li span {
+      position: absolute;
+      left: 7px;
+      margin: -2px 0 0 -2px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid #2c3e50;
+      background: #95a5a6; }
+    ul li p {
+      color: #fff;
+      font-size: 12px; }
+
+.email {
+  position: relative;
+  top: -26px;
+  left: 5px; }
+
+.wrapper {
+  margin-bottom: -24px;
+  color: #fff; }
+
+li:hover {
+  background: #74b9ff; }
+
+.preview {
+  padding: 5px 0 0 0; }
+
+.name {
+  font-weight: 600;
+  padding-bottom: 10px; }
+
+.user-header p {
+  color: grey; }
+
+.user-header img {
+  width: 40px;
+  height: 40px;
+  margin: 8px;
+  border-radius: 50%; }
+
+.user-header .fas.fa-phone {
+  height: 5px; }
+
+.user-header span {
+  background: grey;
+  margin-left: 5px;
+  border-radius: 3px;
+  height: 5px; }
