@@ -162,7 +162,8 @@ body {
   border: 1px solid orange;
   background: orange; }
 
-.fa, .fas {
+.fa,
+.fas {
   color: white; }
 
 .sign {

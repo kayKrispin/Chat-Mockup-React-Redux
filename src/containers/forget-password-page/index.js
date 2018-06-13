@@ -1,16 +1,14 @@
-import React, { Component } from 'react';
-import ForgetPasswordForm from './forget-password-form';
+import React, { Component } from "react";
+import ForgetPasswordForm from "./forget-password-form";
 
 class ForgetPasswordPage extends Component {
-
-  render() {
-    return (
-      <div>
-        < ForgetPasswordForm />
-      </div>
-    );
-  }
-
+	render() {
+		return (
+			<div>
+				<ForgetPasswordForm />
+			</div>
+		);
+	}
 }
 
 export default ForgetPasswordPage;
